@@ -11,8 +11,8 @@ const Robot: React.FC<RobotProps> = ({ id, name, email }) => {
   return (
     <li className={style.cardContainer}>
       <img src={`https://robohash.org/${id}`}/>
-      <h2>name</h2>
-      <p>email</p>
+      <h2>{name}</h2>
+      <p>{email}</p>
     </li>
   );
 };
